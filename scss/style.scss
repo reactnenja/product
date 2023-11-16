@@ -1,0 +1,39 @@
+
+
+@import './base/animation';
+@import './base/resit';
+
+
+// COMPONENTS SCSS
+
+@import './components/_button';
+@import './components/_widget';
+
+// COMPONENTS SCSS
+
+//  LAYOUT SECTION SCSS
+
+@import './layout/header';
+@import './layout/main';
+@import './layout/sidebar';
+@import './layout/footer';
+@import './layout/grid';
+
+//  LAYOUT SECTION SCSS
+
+// MODULE SECTION STYLE START
+@import './module/confirm';
+@import './module/product';
+// MODULE SECTION STYLE END
+
+// STATE SECTIONS STYLE
+@import './state/function';
+@import './state/mixins';
+@import './state/placeholder';
+@import './base/variables';
+// STATE SECTIONS STYLE
+
+// THEME SECTION STYLE
+@import './theme/admin';
+@import './theme/theme';
+// THEME SECTION STYLE
