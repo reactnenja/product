@@ -1,12 +1,19 @@
 $poppins-fonts: "Poppins";
 $heading-text: #22343d;
+$btn-color: #173a56;
 $text-color: #252b42;
 $primary-success: #02897a;
 $primary-white: #ffffff;
-$bg-color: #edfffc;
+$bg-color: #e0eae8be;
+$bg-blur: #bcd0e5;
 $second-text: #737373;
-$br: 1px solid #dedede;
-$br-input: 1px solid #bcd0e5;
+// border
+$br-1: 1px solid #dedede;
+$br-2: 1px solid #bcd0e5;
+$br-3: 3px solid $primary-success;
+// border
+// border radius
 $br-radius-4: 4px;
 $br-radius-5: 5px;
+// border radius
 $boxShadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);

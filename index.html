@@ -4,17 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product | Home Page HTML/SCSS Web ~ Page</title>
+    <!-- link min css -->
     <link rel="stylesheet" href="assets/css/style.min.css" />
+    <!-- link min css -->
+    <!-- link cdnjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link cdnjs -->
   </head>
   <body>
-    <header class="header">
-        <nav class="navbar">
-            <div class="container">
-                <div class="navigations">
-                    a.nav_logo
-                </div>
+    <header class="site__header">
+      <nav class="navigation">
+        <div class="container container__xxl">
+          <div class="navbar">
+            <a href="#" class="navbar__logo">
+              <img src="assets/images/logo.png" alt="logo website" />
+            </a>
+            <ul class="navbar__list">
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item__link"
+                  ><b class="text-or">Product</b></a
+                >
+              </li>
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item__link">Customers</a>
+              </li>
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item__link">Pricing</a>
+              </li>
+              <li class="navbar__list__item">
+                <a href="#" class="navbar__list__item__link">Resources</a>
+              </li>
+              <div class="btn__group">
+                <button class="btn btn__light text-btn btn__outline">
+                  Sign in
+                </button>
+                <button class="btn btn__success text-btn btn__outline">
+                  Sign up
+                </button>
+              </div>
+            </ul>
+            <div class="btn__option">
+              <button id="btn__dark" class="btn__dark" checked>
+                <i class="fa-solid fa-circle-half-stroke fa-rotate-180"></i>
+              </button>
+              <button id="hamburger" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+              </button>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="container">
+          <div class="hero__menu">
+            <div class="hero__menu__left">
+              <h1 class="left__heading">Work at the speed of thought</h1>
+              <p class="left__paragriph">
+                Tools, tutorials, design and innovation experts, all in one
+                place! The most intuitive way to imagine your next user
+                experience.
+              </p>
+              <div class="left__main">
+                <a
+                  href="#"
+                  class="btn__link btn__link__sm btn__link__md btn__link__xl"
+                  >Get Started</a
+                >
+                <a href="#" class="text__link">
+                  <img src="assets/images/play.png" alt="play btn" /> Watch the
+                  Video</a
+                >
+              </div>
+            </div>
+            <div class="hero__menu__right">
+              <img src="assets/images/hero-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
+    <!-- header section end -->
+
+    <!-- script js  -->
+    <script src="assets/js/app.js"></script>
+    <!-- script js  -->
   </body>
 </html>
