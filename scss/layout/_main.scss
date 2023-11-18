@@ -1,0 +1,76 @@
+.main {
+}
+.site-main {
+  width: 100%;
+  .site__left {
+    width: 100%;
+    height: 435px;
+    &-strong {
+      margin-bottom: 8px;
+    }
+    &-heading {
+      color: #22343d;
+      font-family: $poppins-fonts;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 23px;
+    }
+    &-paragriph {
+      color: #22343d;
+      font-family: $poppins-fonts;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .site__left__our {
+      margin-bottom: 25px;
+      h5 {
+        color: #22343d;
+        font-family: $poppins-fonts;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        margin-bottom: 15px; /* 162.5% */
+      }
+      p {
+        color: #22343d;
+        font-family: $poppins-fonts;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+      }
+    }
+  }
+  @media (min-width: 375px) and (max-width: 1024px) {
+    .site__left {
+      height: 600px;
+      border: 2px solid $heading-text;
+      padding: 15px;
+      border-radius: 22px;
+      &-paragriph {
+        max-width: 568px;
+      }
+
+      &__our {
+        border: 2px solid $heading-text;
+        border-radius: 18px;
+        padding: 15px;
+        text-align: left;
+      }
+    }
+  }
+  .site__right {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    .amigo-right {
+      width: 100%;
+    }
+    @media (min-width: 320px) and (max-width: 1024px) {
+      width: 100%;
+      .amigo-right {
+        width: 100%;
+      }
+    }
+  }
+}

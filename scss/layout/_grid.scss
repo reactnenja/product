@@ -1,0 +1,22 @@
+.row {
+  display: grid;
+  justify-content: space-between;
+  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  @media (min-width: 320px) and (max-width: 425px) {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 425px) and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .col-1 {
+    grid-column: span 3;
+  }
+}
